@@ -26,8 +26,8 @@ class Controller:
                 turn = "white" if turn == "black" else "black"
                 continue
             while True:
-                x = int(input("x: "))
-                y = int(input("y: "))
+                x = int(input("row: "))
+                y = int(input("column: "))
                 if self.board.can_put(x, y, Stone(turn)):
                     self.board.put(x, y, Stone(turn))
                     turn = "white" if turn == "black" else "black"
