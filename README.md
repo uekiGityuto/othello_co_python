@@ -63,6 +63,15 @@ Controller
     - 石を置ければ、石を置いて、相手の番とする
   - 石が置けなくなったら、黒と白の石の数を数えて勝敗を判定する
 
+## 環境構築
+
+```shell
+python -m pip install --upgrade pip
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
 ## 起動
 
 ```shell
